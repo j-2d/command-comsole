@@ -1,5 +1,5 @@
-powertoys
+powertoys:
 	base: ~/AppData/Local/Microsoft
 	configs:
-	- {base}/settings.json
-	- (base}/FancyZones/settings.json
+		- {base}/settings.json
+		- (base}/FancyZones/settings.json
