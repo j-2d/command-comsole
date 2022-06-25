@@ -1,5 +1,10 @@
 powertoys:
-	base: ~/AppData/Local/Microsoft
+	working: ~/AppData/Local/Microsoft/
 	configs:
-		- {base}/settings.json
-		- (base}/FancyZones/settings.json
+		- settings.json
+		- FancyZones/settings.json
+firefox:
+	backup: ./configs/firefox/
+	working: ~/AppData/Roaming/Mozilla/Firefox/Profiles/t240ilq9.default-release/chrome/
+	configs:
+		- userChrome.css
