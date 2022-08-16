@@ -1,0 +1,61 @@
+[character] # The name of the module we are configuring is "character"
+success_symbol = "[λ](bold green)"
+error_symbol = "[λ](bold red)"
+
+[git_status]
+disabled = true
+
+[git_metrics]
+disabled = false
+
+[kubernetes]
+disabled = false
+
+[kubernetes.context_aliases]
+"faber-aws-dev.*" = "faber-aws-dev"
+"faber-aws-int.*" = "faber-aws-int"
+
+[helm]
+disabled = true
+
+[memory_usage]
+format = "running hot $symbol[${ram}( | ${swap})]($style) "
+threshold = 70
+disabled = false
+style = "bold dimmed red"
+
+[shell]
+disabled = true
+
+# [time]
+# disabled = false
+# format = '🕙[\[ $time \]]($style) '
+# use_12hr = true
+
+[custom.foo]
+command = "echo foo" # shows output of command
+detect_files = ["foo"] # can specify filters but wildcards are not supported
+when = """ test "$HOME" == "$PWD" """
+format = " transcending [$output]($style)"
+
+[battery]
+full_symbol = "🔋"
+charging_symbol = "🔌"
+discharging_symbol = "⚡"
+
+[[battery.display]]
+threshold = 30
+style = "bold red"
+
+[cmd_duration]
+min_time = 1_000
+format = " took [$duration]($style)"
+style = "bold dimmed red"
+
+[directory]
+truncation_length = 5
+repo_root_style = "bold yellow"
+truncation_symbol = "…/"
+
+[git_commit]
+commit_hash_length = 8
