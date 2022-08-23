@@ -1,6 +1,7 @@
 [character] # The name of the module we are configuring is "character"
 success_symbol = "[λ](bold green)"
 error_symbol = "[λ](bold red)"
+disabled = true
 
 [git_status]
 disabled = true
@@ -25,18 +26,17 @@ disabled = false
 style = "bold dimmed red"
 
 [shell]
-disabled = true
+fish_indicator = ""
+bash_indicator = "λ"
+powershell_indicator = "❯_"
+unknown_indicator = "mystery shell"
+style = "green bold"
+disabled = false
 
 # [time]
 # disabled = false
 # format = '🕙[\[ $time \]]($style) '
 # use_12hr = true
-
-[custom.foo]
-command = "echo foo" # shows output of command
-detect_files = ["foo"] # can specify filters but wildcards are not supported
-when = """ test "$HOME" == "$PWD" """
-format = " transcending [$output]($style)"
 
 [battery]
 full_symbol = "🔋"
