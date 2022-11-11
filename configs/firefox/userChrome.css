@@ -1,6 +1,10 @@
 /* TabsToolbar */
 
 #TabsToolbar { visibility: collapse !important; }
+
+
+#titlebar { visibility: collapse; }
+
 /* #main-window #TabsToolbar {
     height: 29px !important;
     overflow: hidden;
