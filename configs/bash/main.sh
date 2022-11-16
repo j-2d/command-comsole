@@ -9,6 +9,9 @@ function load()
   IFS="$OIFS"
 }
 
+COMMAND_CONSOLE_MAIN=${BASH_SOURCE[0]}
+COMMAND_CONSOLE_DIR=$( dirname "$COMMAND_CONSOLE_MAIN" )
+
 load 'colors.sh'
 load 'settings.sh'
 load 'functions.sh'
@@ -86,9 +89,6 @@ echo -e "
                \`.____.'
                  V   V
 "
-
-COMMAND_CONSOLE_MAIN=${BASH_SOURCE[0]}
-COMMAND_CONSOLE_DIR=$( dirname "$COMMAND_CONSOLE_MAIN" )
 
 eval "$(starship init bash)"
 alias br='source /c/Users/e371975/.bash_profile'
