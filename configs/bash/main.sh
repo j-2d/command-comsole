@@ -21,41 +21,21 @@ echo -e ''
 load 'env.*'
 echo -e ''
 
-# echo -e "
-# ${Purple}
-# The Wheel of Time turns, and Ages come and pass, leaving memories that become legend.
-#       Legend fades to myth, and even myth is long forgotten when the Age that gave it birth comes again.
-
-#       In one Age, called the Third Age by some, 
-#       an Age yet to come, 
-#       an Age long past, 
-#       a wind rose in the Mountains of Mist.
-
-#       The wind was not the beginning.
-
-#       There are neither beginnings nor endings to the Wheel of Time.
-
-#       But it was a beginning.${Color_Off}
-
-#             - Robert Jordan, The Eye of the World
-# "
 echo -e "
-                  /\       ${Purple}The Wheel of Time turns, and Ages come and pass,${Color_Off}
-                 / |\      ${Purple}    leaving memories that become legend.${Color_Off}
-                / /\ \     ${Purple}    Legend fades to myth,${Color_Off}
-               / /  \ \    ${Purple}    and even myth is long forgotten${Color_Off}
-              / /    \ \   ${Purple}    when the Age that gave it birth comes again.${Color_Off}
+                  /\ 
+                 / |\ 
+                / /\ \ 
+               / /  \ \ 
+              / /    \ \ 
              /_/      \_\ 
              \    '\`    /
               )   ||   ( 
               |   ||   | 
               |   ||   | 
+              |   ||   |
               |   ||   | 
+              |   ||   |  
               |   ||   | 
-              |   ||   |   ${Purple}In one Age, called the Third Age by some,${Color_Off}
-              |   ||   |   ${Purple}    an Age yet to come,${Color_Off}
-              |   ||   |   ${Purple}    an Age long past,${Color_Off}
-              |   ||   |   ${Purple}    a wind rose in the Mountains of Mist.${Color_Off}
               |   ||   | 
   /           |   ||   |           \ 
  /(           |   ||   |           )\ 
@@ -65,29 +45,23 @@ echo -e "
   \`.._   \` . \`-./.__.\.-' , '   _,-'
       \`-._   \` | /  \ | '   _,-'
           \`-._/ |_()_| \_,-'
-       ___.-'   ______   \`-,
-      '-----.  |______|   / 
-             \  ______   /  
-             |  \>  </  / 
-              \________/   
-              _]______[_   
-              |        |    
-              |________|   ${Purple}The wind was not the beginning.${Color_Off}
-               ]______[    ${Purple}There are neither beginnings nor endings to the Wheel of Time.${Color_Off}
-              |        |
-              |________|  
-              _]______[_   
-              |        |   
-              |________|   
-              _]______[_
+         _.-'   ______   \`-,       ${Purple}The Wheel of Time turns, and Ages come and pass,${Color_Off}
+        '---.  |______|   /         ${Purple}    leaving memories that become legend.${Color_Off}
+             \  ______   /          ${Purple}    Legend fades to myth, and even myth is long forgotten${Color_Off}
+             |  \>  </  /           ${Purple}    when the Age that gave it birth comes again.${Color_Off}
+              \________/ 
+              _]______[_            ${Purple}In one Age, called the Third Age by some,${Color_Off}
+              |        |            ${Purple}    an Age yet to come,${Color_Off}
+              |________|            ${Purple}    an Age long past,${Color_Off}
+               ]______[             ${Purple}    a wind rose in the Mountains of Mist.${Color_Off}
               |        |
               |________|
-                ]____[     ${Purple}But it was a beginning.${Color_Off}
-              .'      \`.
+                ]____[              ${Purple}The wind was not the beginning.${Color_Off}
+              .'      \`.           ${Purple}    There are neither beginnings nor endings to the Wheel of Time.${Color_Off}
               | <   >  |>
-             <|   <   >|            - Robert Jordan, The Eye of the World
+             <|   <   >|            ${Purple}But it was a beginning.${Color_Off}
                \`.____.'
-                 V   V
+                 V   V              - Robert Jordan, The Eye of the World
 "
 
 eval "$(starship init bash)"
@@ -95,4 +69,4 @@ alias br='source /c/Users/e371975/.bash_profile'
 alias goprofile='cd /c/Users/e371975/tools/bash_profile/'
 alias be='code $COMMAND_CONSOLE_DIR'
 
-echo -e ".\n..\n... ${BBlue}Command Console Booted Up${Color_Off}"
+echo -e "      ${BBlue}Command Console Booted Up${Color_Off}"
