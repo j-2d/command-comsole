@@ -1,0 +1,355 @@
+{
+  "custom-layouts": [
+    {
+      "uuid": "{950A3816-0F1D-4BA8-A375-C234A79C587F}",
+      "name": "Custom layout 1",
+      "type": "grid",
+      "info": {
+        "rows": 6,
+        "columns": 5,
+        "rows-percentage": [
+          2512,
+          1943,
+          816,
+          2331,
+          429,
+          1969
+        ],
+        "columns-percentage": [
+          1623,
+          1617,
+          3649,
+          1940,
+          1171
+        ],
+        "cell-child-map": [
+          [
+            0,
+            3,
+            5,
+            6,
+            9
+          ],
+          [
+            0,
+            3,
+            5,
+            7,
+            10
+          ],
+          [
+            1,
+            4,
+            5,
+            7,
+            10
+          ],
+          [
+            1,
+            4,
+            5,
+            7,
+            11
+          ],
+          [
+            2,
+            4,
+            5,
+            7,
+            11
+          ],
+          [
+            2,
+            4,
+            5,
+            8,
+            12
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{DA1E8A63-74A2-47F0-B7A1-6C925D3BF0AE}",
+      "name": "ewr",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 2,
+        "rows-percentage": [
+          5000,
+          5000
+        ],
+        "columns-percentage": [
+          5000,
+          5000
+        ],
+        "cell-child-map": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{B2E4FB8E-339F-4622-A915-5545D6C00AFE}",
+      "name": "Custom layout 4",
+      "type": "grid",
+      "info": {
+        "rows": 1,
+        "columns": 2,
+        "rows-percentage": [
+          10000
+        ],
+        "columns-percentage": [
+          5536,
+          4464
+        ],
+        "cell-child-map": [
+          [
+            0,
+            1
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{866D75D0-1AA3-4C89-A297-6DBB8E7E03AA}",
+      "name": "Custom layout 3 (1)",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 4,
+        "rows-percentage": [
+          5000,
+          5000
+        ],
+        "columns-percentage": [
+          2500,
+          2500,
+          2494,
+          2506
+        ],
+        "cell-child-map": [
+          [
+            0,
+            1,
+            4,
+            5
+          ],
+          [
+            2,
+            3,
+            6,
+            7
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{9348E061-0492-4500-B5A5-99FC06623E1C}",
+      "name": "dualmid (hk1)",
+      "type": "canvas",
+      "info": {
+        "ref-width": 5922,
+        "ref-height": 1923,
+        "zones": [
+          {
+            "X": 0,
+            "Y": 819,
+            "width": 918,
+            "height": 1069
+          },
+          {
+            "X": 918,
+            "Y": 819,
+            "width": 923,
+            "height": 1069
+          },
+          {
+            "X": 1841,
+            "Y": 0,
+            "width": 2161,
+            "height": 1923
+          },
+          {
+            "X": 4966,
+            "Y": 317,
+            "width": 956,
+            "height": 1075
+          },
+          {
+            "X": 4002,
+            "Y": 317,
+            "width": 964,
+            "height": 1075
+          },
+          {
+            "X": 4361,
+            "Y": 494,
+            "width": 1185,
+            "height": 759
+          },
+          {
+            "X": 88,
+            "Y": 977,
+            "width": 1645,
+            "height": 765
+          },
+          {
+            "X": 2928,
+            "Y": 494,
+            "width": 1037,
+            "height": 1219
+          }
+        ],
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{AF7C022D-2C57-44D9-9518-796C1543E28A}",
+      "name": "1 Screen (hk3)",
+      "type": "canvas",
+      "info": {
+        "ref-width": 5922,
+        "ref-height": 1923,
+        "zones": [
+          {
+            "X": 44,
+            "Y": 208,
+            "width": 5818,
+            "height": 1663
+          },
+          {
+            "X": 44,
+            "Y": 28,
+            "width": 2963,
+            "height": 1844
+          },
+          {
+            "X": 3072,
+            "Y": 28,
+            "width": 2790,
+            "height": 1844
+          }
+        ],
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{2564EB63-B26F-4754-96A5-8CF57B7B4A41}",
+      "name": "Priority Grid (hk2)",
+      "type": "grid",
+      "info": {
+        "rows": 2,
+        "columns": 3,
+        "rows-percentage": [
+          5000,
+          5000
+        ],
+        "columns-percentage": [
+          2500,
+          5000,
+          2500
+        ],
+        "cell-child-map": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            4
+          ]
+        ],
+        "show-spacing": true,
+        "spacing": 16,
+        "sensitivity-radius": 20
+      }
+    },
+    {
+      "uuid": "{794B6D6E-9D95-4E5F-9854-B2C0B81D0937}",
+      "name": "HomeOffice (hk4)",
+      "type": "canvas",
+      "info": {
+        "ref-width": 4402,
+        "ref-height": 1440,
+        "zones": [
+          {
+            "X": 3427,
+            "Y": 358,
+            "width": 973,
+            "height": 1080
+          },
+          {
+            "X": 2484,
+            "Y": 358,
+            "width": 942,
+            "height": 1080
+          },
+          {
+            "X": 15,
+            "Y": 14,
+            "width": 2452,
+            "height": 1411
+          },
+          {
+            "X": 15,
+            "Y": 14,
+            "width": 1186,
+            "height": 1411
+          },
+          {
+            "X": 1216,
+            "Y": 14,
+            "width": 1251,
+            "height": 1411
+          },
+          {
+            "X": 15,
+            "Y": 14,
+            "width": 1186,
+            "height": 699
+          },
+          {
+            "X": 15,
+            "Y": 724,
+            "width": 1186,
+            "height": 701
+          },
+          {
+            "X": 1216,
+            "Y": 14,
+            "width": 1251,
+            "height": 699
+          },
+          {
+            "X": 1216,
+            "Y": 724,
+            "width": 1251,
+            "height": 701
+          }
+        ],
+        "sensitivity-radius": 20
+      }
+    }
+  ]
+}
