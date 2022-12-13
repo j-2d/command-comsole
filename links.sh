@@ -20,3 +20,7 @@ mklink c:\Users\e371975\AppData\Local\Microsoft\PowerToys\FancyZones\layout-hotk
 mklink c:\Users\e371975\AppData\Local\Microsoft\PowerToys\FancyZones\layout-templates.json c:\dev\command-console\configs\powertoys\FancyZones\layout-templates.json
 
 ### vs code
+
+
+### cmder
+mklink c:\Users\e371975\scoop\apps\cmder\current\vendor\conemu-maximus5\ConEmu.xml c:\dev\command-console\configs\cmder\ConEmu.xml

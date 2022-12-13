@@ -44,3 +44,6 @@ __git_complete gb _git_branch
 ## Bash
 alias lls="ls -la"
 alias tree="ls -aR | grep ":$" | perl -pe 's/:$//;s/[^-][^\/]*\//    /g;s/^    (\S)/└── \1/;s/(^    |    (?= ))/│   /g;s/    (\S)/└── \1/'"
+
+## cat/bat
+alias cat="bat"
