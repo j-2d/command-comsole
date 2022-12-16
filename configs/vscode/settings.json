@@ -6,7 +6,6 @@
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"C:\\Users\\e371975\\scoop\\apps\\vscode\\1.68.1\\data\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
   "java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.13.8-hotspot",
   "java.jdt.ls.java.home": "c:\\Program Files\\Eclipse Adoptium\\jdk8",
-  "terminal.integrated.fontFamily": "CaskaydiaCove NF",
   "workbench.colorTheme": "Tokyo Night",
   "terminal.integrated.fontSize": 12,
   "security.workspace.trust.untrustedFiles": "open",
@@ -28,5 +27,7 @@
       "args": ["--login", "-i"]
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Bash"
+  "terminal.integrated.defaultProfile.windows": "Bash",
+  "editor.fontFamily": "JetBrainsMono NF",
+  "editor.fontSize": 12
 }

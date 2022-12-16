@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2022-12-15 14:09:35" build="210912">
+		<key name=".Vanilla" modified="2022-12-16 14:20:14" build="210912">
 			<value name="ColorTable00" type="dword" data="003f3f3f"/>
 			<value name="ColorTable01" type="dword" data="00af6464"/>
 			<value name="ColorTable02" type="dword" data="00008000"/>
@@ -98,7 +98,7 @@
 			<value name="Multi.SplitWidth" type="hex" data="04"/>
 			<value name="Multi.SplitHeight" type="hex" data="04"/>
 			<value name="KeyboardHooks" type="hex" data="02"/>
-			<value name="FontName" type="string" data="CaskaydiaCove NF SemiLight"/>
+			<value name="FontName" type="string" data="JetBrainsMono NF"/>
 			<value name="FontName2" type="string" data="CaskaydiaCove NF SemiLight"/>
 			<value name="FontAutoSize" type="hex" data="00"/>
 			<value name="FontSize" type="ulong" data="19"/>
@@ -125,9 +125,9 @@
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
 			<value name="ConWnd Width" type="dword" data="00000097"/>
-			<value name="ConWnd Height" type="dword" data="00000022"/>
+			<value name="ConWnd Height" type="dword" data="00000020"/>
 			<value name="Cascaded" type="hex" data="00"/>
-			<value name="ConWnd X" type="long" data="1920"/>
+			<value name="ConWnd X" type="long" data="694"/>
 			<value name="ConWnd Y" type="long" data="0"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
@@ -914,7 +914,7 @@
 			</key>
 			<value name="StartCreateDelay" type="ulong" data="100"/>
 			<value name="DefaultTerminalDebugLog" type="hex" data="00"/>
-			<value name="LastMonitor" type="string" data="1920,0,3840,1080"/>
+			<value name="LastMonitor" type="string" data="78,0,1920,1080"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
 			<value name="DownShowExOnTopMessage" type="hex" data="00"/>
 			<value name="EnvironmentSet" type="multi">
