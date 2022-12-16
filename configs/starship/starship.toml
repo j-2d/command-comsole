@@ -13,6 +13,7 @@ $elixir\
 $elm\
 $golang\
 $haskell\
+$helm\
 $java\
 $julia\
 $nodejs\
@@ -36,7 +37,8 @@ $time\
 show_always = true
 style_user = "bg:#9A348E"
 style_root = "bg:#9A348E"
-format = '[λ $user ]($style)'
+# format = '[λ $user ]($style)'
+format = '[λ ]($style)'
 disabled = false
 
 # An alternative to the username module which displays a symbol that
@@ -49,7 +51,7 @@ disabled = true # Disabled by default
 style = "bg:#DA627D"
 format = "[ $path ]($style)"
 repo_root_format = "[ $before_root_path]($before_repo_root_style)[$repo_root]($repo_root_style)[$path ]($style)[$read_only]($read_only_style)"
-repo_root_style = "fg:#86BBD8 bg:#DA627D"
+repo_root_style = "fg:#33658A bg:#DA627D"
 truncation_length = 5
 truncation_symbol = "…/"
 
@@ -60,6 +62,8 @@ truncation_symbol = "…/"
 "Downloads" = " "
 "Music" = " "
 "Pictures" = " "
+"dev" = " "
+# "command-console" = " "
 # Keep in mind that the order matters. For example:
 # "Important Documents" = "  "
 # will not be replaced, because "Documents" was already substituted before.
@@ -103,6 +107,7 @@ format = '[ $symbol $branch ]($style)'
 [git_status]
 style = "bg:#FCA17D"
 format = '[$all_status$ahead_behind ]($style)'
+disabled = true
 
 [golang]
 symbol = " "
