@@ -1,12 +1,10 @@
 {
-  "git.path": "C:\\Users\\e371975\\scoop\\apps\\git\\current\\bin\\git.exe",
-    "java.configuration.runtimes": [
-    
-    ],
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"C:\\Users\\e371975\\scoop\\apps\\vscode\\1.68.1\\data\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
-  "java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.13.8-hotspot",
-  "java.jdt.ls.java.home": "c:\\Program Files\\Eclipse Adoptium\\jdk8",
-  "workbench.colorTheme": "Tokyo Night",
+"git.path": "C:\\Users\\e371975\\scoop\\apps\\git\\current\\bin\\git.exe",
+"java.configuration.runtimes": [],
+"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"C:\\Users\\e371975\\scoop\\apps\\vscode\\1.68.1\\data\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+"java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.13.8-hotspot",
+"java.jdt.ls.java.home": "c:\\dev\\java\\jdk-17.0.2",
+  "workbench.colorTheme": "Andromeda",
   "terminal.integrated.fontSize": 12,
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.profiles.windows": {
@@ -29,5 +27,19 @@
   },
   "terminal.integrated.defaultProfile.windows": "Bash",
   "editor.fontFamily": "JetBrainsMono NF",
-  "editor.fontSize": 12
+  "editor.fontSize": 12,
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.copyOnSelection": true,
+"terminal.integrated.defaultLocation": "editor",
+"redhat.telemetry.enabled": false,
+"gitlens.hovers.currentLine.over": "line",
+"workbench.editor.revealIfOpen": true,
+"tabnine.experimentalAutoImports": true,
+"[python]": {
+  "editor.formatOnType": true
+},
+"l13Projects.confirmDeleteProject": false,
+"editor.detectIndentation": false
 }

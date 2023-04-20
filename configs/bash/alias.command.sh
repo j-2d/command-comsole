@@ -4,9 +4,6 @@ complete -F __start_kubectl k
 
 alias podracing="kubectl get pod"
 
-## Vagrant
-alias vagr='vagrant up && vagrant ssh'
-
 ## Scoop
 alias scup="scoop update '*'"
 alias scmd='scoop list | tee $COMMAND_CONSOLE_DIR/README.md'
@@ -35,11 +32,14 @@ alias gcm='git commit -m'
 alias ga='git add'
 alias gacm='git commit -am'
 alias gp='git pull'
-alias gdev='gsw dev'
 alias gpd='gd && gp && gsw -'
 alias gpc=gitpushcurrent
 alias gb='git branch'
 __git_complete gb _git_branch
+alias reb='git fetch --all && git rebase origin/develop'
+
+alias gdev='gsw develop'
+
 
 ## Bash
 alias lls="ls -la"
@@ -47,3 +47,8 @@ alias tree="ls -aR | grep ":$" | perl -pe 's/:$//;s/[^-][^\/]*\//    /g;s/^    (
 
 ## cat/bat
 alias cat="bat"
+
+## Kubectl
+alias k='kubectl'
+#__start_kubectl
+alias podracing='k get pod'

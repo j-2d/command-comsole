@@ -1,132 +1,6 @@
 {
   "custom-layouts": [
     {
-      "uuid": "{950A3816-0F1D-4BA8-A375-C234A79C587F}",
-      "name": "Custom layout 1",
-      "type": "grid",
-      "info": {
-        "rows": 6,
-        "columns": 5,
-        "rows-percentage": [
-          2512,
-          1943,
-          816,
-          2331,
-          429,
-          1969
-        ],
-        "columns-percentage": [
-          1623,
-          1617,
-          3649,
-          1940,
-          1171
-        ],
-        "cell-child-map": [
-          [
-            0,
-            3,
-            5,
-            6,
-            9
-          ],
-          [
-            0,
-            3,
-            5,
-            7,
-            10
-          ],
-          [
-            1,
-            4,
-            5,
-            7,
-            10
-          ],
-          [
-            1,
-            4,
-            5,
-            7,
-            11
-          ],
-          [
-            2,
-            4,
-            5,
-            7,
-            11
-          ],
-          [
-            2,
-            4,
-            5,
-            8,
-            12
-          ]
-        ],
-        "show-spacing": true,
-        "spacing": 16,
-        "sensitivity-radius": 20
-      }
-    },
-    {
-      "uuid": "{DA1E8A63-74A2-47F0-B7A1-6C925D3BF0AE}",
-      "name": "ewr",
-      "type": "grid",
-      "info": {
-        "rows": 2,
-        "columns": 2,
-        "rows-percentage": [
-          5000,
-          5000
-        ],
-        "columns-percentage": [
-          5000,
-          5000
-        ],
-        "cell-child-map": [
-          [
-            0,
-            2
-          ],
-          [
-            1,
-            3
-          ]
-        ],
-        "show-spacing": true,
-        "spacing": 16,
-        "sensitivity-radius": 20
-      }
-    },
-    {
-      "uuid": "{B2E4FB8E-339F-4622-A915-5545D6C00AFE}",
-      "name": "Custom layout 4",
-      "type": "grid",
-      "info": {
-        "rows": 1,
-        "columns": 2,
-        "rows-percentage": [
-          10000
-        ],
-        "columns-percentage": [
-          5536,
-          4464
-        ],
-        "cell-child-map": [
-          [
-            0,
-            1
-          ]
-        ],
-        "show-spacing": true,
-        "spacing": 16,
-        "sensitivity-radius": 20
-      }
-    },
-    {
       "uuid": "{866D75D0-1AA3-4C89-A297-6DBB8E7E03AA}",
       "name": "Custom layout 3 (1)",
       "type": "grid",
@@ -167,56 +41,68 @@
       "name": "dualmid (hk1)",
       "type": "canvas",
       "info": {
-        "ref-width": 5922,
+        "ref-width": 6000,
         "ref-height": 1923,
         "zones": [
           {
             "X": 13,
             "Y": 839,
-            "width": 897,
+            "width": 957,
             "height": 1049
           },
           {
-            "X": 924,
+            "X": 986,
             "Y": 839,
-            "width": 903,
+            "width": 919,
             "height": 1049
           },
           {
-            "X": 1853,
+            "X": 1931,
             "Y": 11,
-            "width": 2136,
+            "width": 2140,
             "height": 1899
           },
           {
             "X": 4972,
-            "Y": 329,
-            "width": 939,
-            "height": 1054
+            "Y": 357,
+            "width": 1015,
+            "height": 1026
           },
           {
-            "X": 4012,
-            "Y": 329,
-            "width": 946,
-            "height": 1054
+            "X": 4087,
+            "Y": 357,
+            "width": 867,
+            "height": 1026
           },
           {
-            "X": 4361,
+            "X": 4418,
             "Y": 494,
-            "width": 1185,
+            "width": 1200,
             "height": 759
           },
           {
-            "X": 88,
+            "X": 89,
             "Y": 977,
-            "width": 1645,
+            "width": 1666,
             "height": 765
           },
           {
-            "X": 2928,
+            "X": 3008,
             "Y": 494,
-            "width": 1037,
+            "width": 1063,
             "height": 1219
+          },
+          {
+            "X": 1931,
+            "Y": 1183,
+            "width": 2156,
+            "height": 727
+          },
+          {
+            "X": 1931,
+            "Y": 26,
+            "width": 1066,
+            "height": 813
           }
         ],
         "sensitivity-radius": 20
@@ -257,16 +143,17 @@
       "name": "Priority Grid (hk2)",
       "type": "grid",
       "info": {
-        "rows": 2,
+        "rows": 3,
         "columns": 3,
         "rows-percentage": [
-          5000,
-          5000
+          2817,
+          2777,
+          4406
         ],
         "columns-percentage": [
-          2500,
-          5000,
-          2500
+          5287,
+          2346,
+          2367
         ],
         "cell-child-map": [
           [
@@ -275,9 +162,14 @@
             2
           ],
           [
+            0,
             3,
-            1,
-            4
+            5
+          ],
+          [
+            0,
+            4,
+            6
           ]
         ],
         "show-spacing": true,
@@ -290,62 +182,128 @@
       "name": "HomeOffice (hk4)",
       "type": "canvas",
       "info": {
-        "ref-width": 4402,
-        "ref-height": 1440,
+        "ref-width": 7040,
+        "ref-height": 1459,
         "zones": [
           {
-            "X": 3427,
-            "Y": 358,
-            "width": 973,
-            "height": 1080
+            "X": 6055,
+            "Y": 362,
+            "width": 984,
+            "height": 1097
           },
           {
-            "X": 2484,
-            "Y": 358,
-            "width": 942,
-            "height": 1080
+            "X": 5123,
+            "Y": 378,
+            "width": 931,
+            "height": 1081
           },
           {
-            "X": 15,
-            "Y": 14,
-            "width": 2452,
-            "height": 1411
+            "X": 278,
+            "Y": 198,
+            "width": 1999,
+            "height": 1003
           },
           {
-            "X": 15,
-            "Y": 14,
-            "width": 1186,
-            "height": 1411
+            "X": 3,
+            "Y": 28,
+            "width": 1261,
+            "height": 1406
           },
           {
-            "X": 1216,
-            "Y": 14,
-            "width": 1251,
-            "height": 1411
+            "X": 1274,
+            "Y": 28,
+            "width": 1279,
+            "height": 1406
           },
           {
-            "X": 15,
-            "Y": 14,
-            "width": 1186,
-            "height": 699
+            "X": 3,
+            "Y": 28,
+            "width": 1261,
+            "height": 694
           },
           {
-            "X": 15,
-            "Y": 724,
-            "width": 1186,
-            "height": 701
+            "X": 3,
+            "Y": 742,
+            "width": 1261,
+            "height": 692
           },
           {
-            "X": 1216,
-            "Y": 14,
-            "width": 1251,
-            "height": 699
+            "X": 1274,
+            "Y": 28,
+            "width": 1279,
+            "height": 694
           },
           {
-            "X": 1216,
-            "Y": 724,
-            "width": 1251,
-            "height": 701
+            "X": 1274,
+            "Y": 742,
+            "width": 1279,
+            "height": 692
+          },
+          {
+            "X": 0,
+            "Y": 28,
+            "width": 2553,
+            "height": 694
+          },
+          {
+            "X": 0,
+            "Y": 742,
+            "width": 2553,
+            "height": 694
+          },
+          {
+            "X": 2568,
+            "Y": 7,
+            "width": 1344,
+            "height": 741
+          },
+          {
+            "X": 2565,
+            "Y": 757,
+            "width": 1347,
+            "height": 674
+          },
+          {
+            "X": 3926,
+            "Y": 7,
+            "width": 1174,
+            "height": 741
+          },
+          {
+            "X": 3926,
+            "Y": 757,
+            "width": 1174,
+            "height": 674
+          },
+          {
+            "X": 2565,
+            "Y": 7,
+            "width": 2535,
+            "height": 741
+          },
+          {
+            "X": 2565,
+            "Y": 757,
+            "width": 2535,
+            "height": 674
+          },
+          {
+            "X": 3926,
+            "Y": 7,
+            "width": 1174,
+            "height": 1424
+          },
+          {
+            "X": 2563,
+            "Y": 7,
+            "width": 1349,
+            "height": 1427
+          },
+          {
+            "X": 2970,
+            "Y": 257,
+            "width": 1789,
+            "height": 944
           }
         ],
         "sensitivity-radius": 20

@@ -1,6 +1,0 @@
-export LMBROKER_NEXUS_PULL_USER="faber-pull"
-export LMBROKER_NEXUS_PULL_PASS="SomethingObvious"
-export LMBROKER_NEXUS_URL_BASE="http://146.69.146.254:8081"
-export LMBROKER_NEXUS_PUBLISH_USER="faber-publish"
-export LMBROKER_NEXUS_PUBLISH_PASS="SomethingObvious"
-export LMBROKER_NEXUS_PUBLISH_REPO="lmb-m2-lm"
