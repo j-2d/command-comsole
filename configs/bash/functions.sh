@@ -38,3 +38,6 @@ realpath() {
   fi
 }
 
+display_center(){
+	printf "%*s\n" $(( ( $(echo $* | wc -c ) + 80 ) / 2 )) "$*"
+}

@@ -36,7 +36,8 @@ alias gpd='gd && gp && gsw -'
 alias gpc=gitpushcurrent
 alias gb='git branch'
 __git_complete gb _git_branch
-alias reb='git fetch --all && git rebase origin/develop'
+alias grd='git fetch --all && git rebase origin/develop'
+alias grm='git fetch --all && git rebase origin/master'
 
 alias gdev='gsw develop'
 

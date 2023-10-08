@@ -41,5 +41,13 @@
   "editor.formatOnType": true
 },
 "l13Projects.confirmDeleteProject": false,
-"editor.detectIndentation": false
+"editor.detectIndentation": false,
+"editor.guides.bracketPairs": true,
+"vsicons.dontShowNewVersionMessage": true,
+"vs-kubernetes": {
+    "vs-kubernetes.knownKubeconfigs": [
+        "c:\\dev\\beast\\kubernetes\\kubeconfigs\\vagrant.yaml"
+    ],
+    "vs-kubernetes.kubeconfig": "c:\\dev\\beast\\kubernetes\\kubeconfigs\\vagrant.yaml"
+}
 }

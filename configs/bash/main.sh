@@ -95,7 +95,7 @@ echo -e ''
 # "
 
 eval "$(starship init bash)"
-alias br='source /c/Users/e371975/.bash_profile'
+alias br='. /c/Users/e371975/.bash_profile'
 alias be='code $COMMAND_CONSOLE_DIR'
 
 echo -e "      ${BBlue}Command Console Booted Up${Color_Off}"
